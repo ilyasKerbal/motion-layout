@@ -66,6 +66,17 @@
             />
 
             <!-- TODO Add Custom attributes here -->
+            <KeyAttribute
+                app:motionTarget="@id/moon"
+                app:framePosition="0">
+                <CustomAttribute app:attributeName="colorFilter" app:customColorValue="#FFFFFF" />
+            </KeyAttribute>
+            <KeyAttribute app:motionTarget="@id/moon" app:framePosition="50">
+                <CustomAttribute app:attributeName="colorFilter" app:customColorValue="#FFB612" />
+            </KeyAttribute>
+            <KeyAttribute app:motionTarget="@id/moon" app:framePosition="100">
+                <CustomAttribute app:attributeName="colorFilter" app:customColorValue="#FFFFFF" />
+            </KeyAttribute>
 
         </KeyFrameSet>
     </Transition>
